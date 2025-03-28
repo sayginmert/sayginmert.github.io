@@ -1,2 +1,1 @@
-# sayginmert.github.io
-Portfolio Pages for Data Projects
+# Portfolio Pages for Data Projects
