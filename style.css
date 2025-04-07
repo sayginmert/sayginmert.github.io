@@ -51,9 +51,8 @@ section {
 }
 
 .project-card {
-    background-color: rgba(255, 255, 255, 0.8); /* Set background to white with transparency */
-    background-blend-mode: overlay; /* Blend the image and background */
-    background-image: url('images/waze-logo.png'); /* Add the Waze logo */
+    background-color: rgba(255, 255, 255, 0.8);
+    background-image: url('images/waze-logo.png');
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -88,4 +87,31 @@ section {
     background: white;
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+.carousel img {
+    height: 200px;
+    border-radius: 12px;
+}
+
+.contact {
+    background-color: #00AEFF;
+    color: white;
+    padding: 40px 20px;
+}
+
+.contact a {
+    color: #FFB400;
+    font-size: 1.5em;
+    margin: 0 10px;
+    display: inline-block;
+}
