@@ -59,7 +59,11 @@
         }
 
         .project-card {
-            background: white;
+            background-color: rgba(255, 255, 255, 0.8); /* Set background to white with transparency */
+            background-blend-mode: overlay; /* Blend the image and background */
+            background-image: url('images/waze-logo.png'); /* Add the Waze logo */
+            background-size: cover;
+            background-position: center;
             padding: 20px;
             margin: 20px auto;
             border-radius: 12px;
@@ -124,8 +128,8 @@
 </head>
 <body>
     <header>
-        <h1>Mert Saygin - Data Portfolio</h1>
-        <p>Data Analytics | Data Science | Machine Learning | AI</p>
+        <h1>Mert Saygin</h1>
+        <p>Predicting user behavior with Machine Learning</p>
         <nav>
             <ul>
                 <li><a href="#projects">Projects</a></li>
@@ -140,9 +144,9 @@
     <section id="projects">
         <h2>Project Overview</h2>
         <p>Explore real-world data science applications and outcomes.</p>
-        <div class="project-card" style="background-image: url('images/waze-logo.png'); background-size: cover; background-position: center;">
+        <div class="project-card">
             <h3>Waze Churn Prediction</h3>
-            <p>Built a churn model using Random Forests and visualized behavioral patterns of drivers.</p>
+            <p>EDA & Built a churn predictions model using logistic regression, Random forest and Boosting .</p>
             <a href="https://github.com/sayginmert/Waze-Churn-Prediction" class="btn">GitHub Repository</a>
         </div>
     </section>
@@ -173,8 +177,10 @@
         <h2>Gallery</h2>
         <div class="carousel">
             <img src="images/waze_boxplot_sessions.png" alt="Boxplot Sessions">
-            <img src="images/waze_heatmap.png" alt="Heatmap">
-            <img src="images/waze_churn_feature_importance.png" alt="Feature Importance">
+            <img src="images/waze_heatmap_correlation.png" alt="Heatmap Correlation">
+            <img src="images/waze_histplot_drivingdays.png" alt="Histogram Driving Days">
+            <img src="images/waze_histplot_sessions.png" alt="Histogram Sessions">
+            <img src="images/waze_piechart_device.png" alt="Piechart Iphone vs. Android">
         </div>
     </section>
 
