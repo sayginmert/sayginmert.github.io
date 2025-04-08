@@ -120,3 +120,41 @@ section {
     margin: 0 10px;
     display: inline-block;
 }
+
+/* Social Icons */
+.icons a {
+    margin: 0 12px;
+    font-size: 2em;
+    color: white;
+    transition: color 0.3s;
+}
+
+.icons a:hover {
+    color: #FFB400; /* Branding: Icon Hover */
+}
+
+/* --- Carousel Gallery --- */
+.carousel-grid {
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 30s linear infinite;
+}
+
+.carousel-track img {
+  max-height: 240px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.carousel-track img:hover {
+  transform: scale(1.05);
+}
