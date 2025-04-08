@@ -134,7 +134,33 @@
         .carousel img:hover {
             transform: scale(1.05); /* Bild leicht vergrößern bei Hover */
         }
+
+        /* --- Carousel Gallery --- */
+        .carousel-grid {
+          overflow: hidden;
+          width: 100%;
+          max-width: 900px;
+          margin: 0 auto;
+          border-radius: 16px;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
         
+        .carousel-track {
+          display: flex;
+          gap: 20px;
+          animation: scroll 30s linear infinite;
+        }
+        
+        .carousel-track img {
+          max-height: 240px;
+          border-radius: 12px;
+          transition: transform 0.3s ease;
+        }
+        
+        .carousel-track img:hover {
+          transform: scale(1.05);
+        }
+
         .contact {
             background-color: #00AEFF;
             color: white;
@@ -214,12 +240,15 @@
 
     <section id="gallery">
         <h2>Gallery</h2>
-        <div class="carousel">
+        <div class="carousel-grid">
+            <div class="carousel-track">
+                
             <img src="images/waze_boxplot_sessions.png" alt="Boxplot Sessions">
             <img src="images/waze_heatmap_correlation.png" alt="Heatmap Correlation">
             <img src="images/waze_histplot_drivingdays.png" alt="Histogram Driving Days">
             <img src="images/waze_histplot_sessions.png" alt="Histogram Sessions">
             <img src="images/waze_piechart_device.png" alt="Piechart Iphone vs. Android">
+            </div>
         </div>
     </section>
 
