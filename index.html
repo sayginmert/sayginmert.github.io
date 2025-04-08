@@ -56,8 +56,14 @@
             padding: 60px 20px;
             max-width: 1000px;
             margin: auto;
+            transition: transform 0.3s ease, background-color 0.3s ease; /* Hinzugefügt: Animation beim Hover */
         }
 
+         section:hover {
+            transform: scale(1.05); /* Skaliert den Abschnitt beim Hover */
+            background-color: #e6f7ff; /* Hintergrundfarbe beim Hover */
+        }
+        
         .project-card {
             background-color: rgba(255, 255, 255, 0.8); /* Set background to white with transparency */
             background-blend-mode: overlay; /* Blend the image and background */
@@ -73,6 +79,7 @@
 
         .project-card:hover {
             transform: scale(1.03);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Verstärkter Schatten beim Hover */
         }
 
         .btn {
@@ -83,6 +90,7 @@
             border-radius: 8px;
             text-decoration: none;
             font-weight: 600;
+            transition: background-color 0.3s ease;
         }
 
         .btn:hover {
@@ -101,6 +109,12 @@
             border-radius: 12px;
             padding: 20px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition für Box-Shadow */
+        }
+        
+        .skill-card:hover {
+            transform: scale(1.05); /* Skaliert die Skill-Card beim Hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Verstärkter Schatten beim Hover */
         }
 
         .carousel {
@@ -114,12 +128,18 @@
         .carousel img {
             height: 200px;
             border-radius: 12px;
+            transition: transform 0.3s ease;
         }
-
+        
+        .carousel img:hover {
+            transform: scale(1.05); /* Bild leicht vergrößern bei Hover */
+        }
+        
         .contact {
             background-color: #00AEFF;
             color: white;
             padding: 40px 20px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
         }
 
         .contact a {
@@ -127,7 +147,14 @@
             font-size: 1.5em;
             margin: 0 10px;
             display: inline-block;
+            transition: color 0.3s ease;
         }
+        
+        .contact:hover {
+            transform: scale(1.05); /* Skaliert den Kontaktbereich beim Hover */
+            background-color: #008fcc; /* Dunklere Hintergrundfarbe bei Hover */
+        }
+        
     </style>
 </head>
 <body>
