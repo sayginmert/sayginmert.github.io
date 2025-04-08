@@ -52,7 +52,8 @@ section {
 
 .project-card {
     background-color: rgba(255, 255, 255, 0.8);
-    background-image: url('images/waze-logo.png');
+    background-blend-mode: overlay;
+    background-image: url('images/waze_logo.png');
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -69,7 +70,7 @@ section {
 .btn {
     display: inline-block;
     padding: 10px 22px;
-    background-color: ##FFB400;
+    background-color: #FFB400;
     color: white;
     border-radius: 8px;
     text-decoration: none;
@@ -77,7 +78,7 @@ section {
 }
 
 .btn:hover {
-    background-color: ##e69500; /* Etwas dunklerer Farbton für Hover */
+    background-color: #e69500;
 }
 
 .skills-grid {
@@ -118,9 +119,4 @@ section {
     font-size: 1.5em;
     margin: 0 10px;
     display: inline-block;
-}
-
-.fab {
-    font-size: 1.5em;
-    margin: 0 10px;
 }
