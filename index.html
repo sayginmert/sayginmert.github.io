@@ -180,6 +180,11 @@
         .carousel-track img:hover {
           transform: scale(1.05);
         }
+        
+        @keyframes scroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); } /* passt sich automatisch an */
+        }
 
         .contact {
             background-color: #00AEFF;
