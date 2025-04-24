@@ -178,13 +178,13 @@
         .carousel-track {
           display: flex;
           gap: 20px;
-          animation: scroll 60s linear infinite;
+          animation: scroll 30s linear infinite;
         }
         
         .carousel-track img {
           max-height: 240px;
           border-radius: 12px;
-          transition: transform 0.8s ease;
+          transition: transform 0.5s ease;
         }
         
         .carousel-track img:hover {
