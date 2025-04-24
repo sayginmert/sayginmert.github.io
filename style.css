@@ -184,7 +184,7 @@
         .carousel-track img {
           max-height: 240px;
           border-radius: 12px;
-          transition: transform 0.5s ease;
+          transition: transform 0.8s ease;
         }
         
         .carousel-track img:hover {
