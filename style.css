@@ -178,7 +178,7 @@
         .carousel-track {
           display: flex;
           gap: 20px;
-          animation: scroll 30s linear infinite;
+          animation: scroll 60s linear infinite;
         }
         
         .carousel-track img {
