@@ -112,6 +112,24 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Verstärkter Schatten beim Hover */
         }
 
+        .project-card-salifort {
+            background-color: rgba(255, 255, 255, 0.8); /* Set background to white with transparency */
+            background-blend-mode: overlay; /* Blend the image and background */
+            background-image: url('images/waze_logo.png'); /* Add the Salifort Motors logo */
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project-card-salifort:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Verstärkter Schatten beim Hover */
+        }
+
         .btn {
             display: inline-block;
             padding: 10px 22px;
