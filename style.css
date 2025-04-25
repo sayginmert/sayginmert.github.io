@@ -171,7 +171,7 @@ a:hover {
     max-height: 240px;
     display: inline-block;
     border-radius: 12px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-in-out;
 }
 
 .carousel-track img:hover {
